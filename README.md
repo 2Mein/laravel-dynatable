@@ -1,4 +1,4 @@
-# Dynatable
+# Laravel Dynatable for Laravel 5
 A library for sending connecting to the [dynatables.js](http://www.dynatable.com/) front end.  
 
 Credits to [ifnot](https://github.com/Ifnot/Dynatable) for making the original version of dynatables for laravel. 
