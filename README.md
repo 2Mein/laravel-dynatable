@@ -8,6 +8,11 @@ Credits to [ifnot](https://github.com/Ifnot/Dynatable) for making the original v
 
 ## Usage
 
+Register the service provider
+
+    'Twomein\LaravelDynatable\LaravelDynatableServiceProvider',
+
+
 ```php
 
     //Get an Eloquent collection
