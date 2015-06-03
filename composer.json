@@ -1,21 +1,23 @@
 {
-    "name": "ifnot/dynatable",
-    "description": "",
+    "name": "Twomein/LaravelDynatable",
+    "description": "A facede for using the dynatable format",
     "authors": [
+        {
+            "name": "Peter Mein",
+            "email":"peter@2mein.nl"
+        },
         {
             "name": "Anael Favre",
             "email": "anael.favre@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
-            "Ifnot\\Dynatable\\": "src/"
+            "Twomein\\LaravelDynatable\\": "src/"
         }
     },
     "minimum-stability": "stable"

@@ -1,5 +1,5 @@
 # Dynatable
-Very simple server-side Dynatable handler for Laravel 4
+Credits to ifnot for making a fluent version for dynatables
 
 # Installation
     composer require ifnot/dynatable:dev-master

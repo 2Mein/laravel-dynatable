@@ -1,4 +1,4 @@
-<?php namespace Ifnot\Dynatable;
+<?php namespace Twomein\LaravelDynatable;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -11,15 +11,6 @@ class DynatableServiceProvider extends ServiceProvider {
 	 */
 	protected $defer = false;
 
-	/**
-	 * Bootstrap the application events.
-	 *
-	 * @return void
-	 */
-	public function boot()
-	{
-		$this->package('ifnot/dynatable');
-	}
 
 	/**
 	 * Register the service provider.
@@ -28,8 +19,15 @@ class DynatableServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
-	}
+        $this->app->bind('dynatable', 'Twomein\LaravelDynatable\Dynatable');
+        /*
+       * This removes the need to add a facade in the config\app
+       */
+        $this->app->booting(function () {
+            $loader = \Illuminate\Foundation\AliasLoader::getInstance();
+            $loader->alias('Dynatable', 'Twomein\LaravelDynatable\Facades\Dynatable');
+        });
+    }
 
 	/**
 	 * Get the services provided by the provider.
