@@ -18,8 +18,8 @@
         "illuminate/support": "~5.0"
     },
     "autoload": {
-        "psr-0": {
-            "Twomein\\LaravelDynatable\\": "src/"
+        "psr-4": {
+            "Twomein\\LaravelDynatable\\": "src"
         }
     },
     "minimum-stability": "dev"

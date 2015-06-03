@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class DynatableServiceProvider extends ServiceProvider {
+class LaravelDynatableServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
