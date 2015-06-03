@@ -8,10 +8,12 @@ Credits to [ifnot](https://github.com/Ifnot/Dynatable) for making the original v
 
 ## Usage
 
-Register the service provider
+Register the service provider in the app.config
 
     'Twomein\LaravelDynatable\LaravelDynatableServiceProvider',
 
+
+Example usage:
 
 ```php
 
