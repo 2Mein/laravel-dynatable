@@ -1,6 +1,8 @@
 {
     "name": "twomein/laravel-dynatable",
     "description": "A facade for using the dynatable format",
+    "keywords": ["laravel", "dynatable"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Peter Mein",
@@ -20,5 +22,5 @@
             "Twomein\\LaravelDynatable\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
