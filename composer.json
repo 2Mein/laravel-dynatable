@@ -1,6 +1,6 @@
 {
-    "name": "twomein/laravel-dynatables",
-    "description": "A facede for using the dynatable format",
+    "name": "twomein/laravel-dynatable",
+    "description": "A facade for using the dynatable format",
     "authors": [
         {
             "name": "Peter Mein",
