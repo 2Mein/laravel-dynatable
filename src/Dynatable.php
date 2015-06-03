@@ -186,7 +186,10 @@ class Dynatable
     }
 
     /**
-     * @return string
+     * @param $query Eloquent collection to be send.
+     * @param array $columns Array of columns you wish to display.
+     * @param $inputs The inputs from datatables.
+     * @return array
      */
     public function make($query, array $columns = [], $inputs)
     {
