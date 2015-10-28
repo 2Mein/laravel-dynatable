@@ -162,7 +162,7 @@ class Dynatable
      */
     protected function handlePagination()
     {
-        $this->query->forPage($this->options['offset'], $this->options['page-length']);
+        $this->query = $this->query->forPage($this->options['offset'], $this->options['page-length']);
     }
 
     /**
