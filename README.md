@@ -1,3 +1,5 @@
+#Work had resumed on the original Ifnot library now called White-frame so this is deprecated.
+
 # Laravel Dynatable for Laravel 5
 A library for sending connecting to the [dynatables.js](http://www.dynatable.com/) front end.  
 
